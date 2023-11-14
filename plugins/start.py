@@ -44,8 +44,8 @@ async def start(client,message):
 	
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup(
-	 [[ InlineKeyboardButton("🎥 Kinolar Olami HD" ,url="https://t.me/Kinolar_OlamiHD") ], 
-	[InlineKeyboardButton("🎬 Premyera Kinolar", url="https://t.me/+WLX8n5s-WzRCJcok") ]  ]))
+	 [[ InlineKeyboardButton("OSYOTV RASMIY KANAL" ,url="https://t.me/osyotv") ], 
+	[InlineKeyboardButton("Uzmovi Tarjima Kinolar", url="https://t.me/+GOSiSh3V6J41ZjBi") ]  ]))
 	    return
 	if id:
 	    if old == True:
@@ -58,8 +58,8 @@ async def start(client,message):
 🎬 Menga Fayl/Video/Audio yuboring va uni qayta nomlang✍️
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup(
-	 [[ InlineKeyboardButton("🎥 Kinolar Olami HD" ,url="https://t.me/Kinolar_OlamiHD") ], 
-	[InlineKeyboardButton("🎬 Premyera Kinolar", url="https://t.me/+WLX8n5s-WzRCJcok") ]  ]))
+	 [[ InlineKeyboardButton("OSYOTV RASMIY KANAL" ,url="https://t.me/osyotv") ], 
+	[InlineKeyboardButton("Uzmovi Tarjima Kinolar", url="https://t.me/+GOSiSh3V6J41ZjBi") ]  ]))
 	        except:
 	             return
 	    else:
@@ -76,8 +76,8 @@ async def start(client,message):
 	
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup(
-	 [[ InlineKeyboardButton("🎥 Kinolar Olami HD" ,url="https://t.me/Kinolar_OlamiHD") ], 
-	[InlineKeyboardButton("🎬 Premyera Kinolar", url="https://t.me/+WLX8n5s-WzRCJcok") ]  ]))
+	 [[ InlineKeyboardButton("OSYOTV RASMIY KANAL" ,url="https://t.me/osyotv") ], 
+	[InlineKeyboardButton("Uzmovi Tarjima Kinolar", url="https://t.me/+GOSiSh3V6J41ZjBi") ]  ]))
 	         
 
 
@@ -90,7 +90,7 @@ async def send_doc(client,message):
        	try:
        		await client.get_chat_member(update_channel, user_id)
        	except UserNotParticipant:
-       		await message.reply_text(text =f"""🤖 @RENAMERGO_BOT 👇
+       		await message.reply_text(text =f"""🤖 @_BOT 👇
 
 ❗️Mendan foydalanish uchun oylik toʻlov qilishingiz kerak✅️
 Bir oy botdan foydalanish uchun atiga 10 ming soʻm:
